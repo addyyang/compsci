@@ -3,3 +3,11 @@
 "name": "TL;DR",
 "version": "0.1"
 }
+"content_scripts": [
+  {
+    "matches": [
+      *://google.com/*
+      ]
+    "js": ["content.js"]
+  }
+]
